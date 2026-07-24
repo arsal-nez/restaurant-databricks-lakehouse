@@ -30,11 +30,13 @@ analytics-ready dimensional and fact tables.
 
 
 
-\## Planned
+Fact Tables:
+- fact_orders
+- fact_order_items
+- fact_reviews
 
-
-
-\- `fact\_order\_items`
+Nested JSON order items are parsed and exploded into
+a normalized order-item fact table.
 
 
 
