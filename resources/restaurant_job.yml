@@ -6,22 +6,22 @@ resources:
       tasks:
         - task_key: bronze_ingestion
           notebook_task:
-            notebook_path: ../notebooks/01_bronze_ingestion.sql
+            notebook_path: ../notebooks/01_bronze_ingestion.ipynb
 
         - task_key: silver_transformations
           depends_on:
             - task_key: bronze_ingestion
           notebook_task:
-            notebook_path: ../notebooks/02_silver_transformations.sql
+            notebook_path: ../notebooks/02_silver_transformations.ipynb
 
         - task_key: gold_analytics
           depends_on:
             - task_key: silver_transformations
           notebook_task:
-            notebook_path: ../notebooks/03_gold_analytics.sql
+            notebook_path: ../notebooks/03_gold_analytics.ipynb
 
         - task_key: data_quality_validation
           depends_on:
             - task_key: gold_analytics
           notebook_task:
-            notebook_path: ../notebooks/04_data_quality_validation.sql
+            notebook_path: ../notebooks/04_data_quality_validation.ipynb
