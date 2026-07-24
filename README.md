@@ -1,5 +1,40 @@
-## Databricks Project (Restaurant ML/Analytics)
+# Restaurant Analytics Lakehouse
 
-![](diagrams/project_architecture.png)
+## Overview
 
-Refer `commands_used.md` for ad-hoc SQL, Bash commands used in the project
+## Business Problem
+
+## Architecture
+
+## Tech Stack
+
+## Dataset
+
+## Bronze Layer
+
+## Silver Layer
+
+## Gold Layer
+
+## Customer 360
+
+## Data Quality
+
+## Dashboard
+
+## Databricks Jobs Orchestration
+
+## Project Structure
+
+## Local Setup
+
+## Databricks Setup
+
+## Results
+
+## Production Architecture
+
+## Future Improvements
+
+## Attribution
+
